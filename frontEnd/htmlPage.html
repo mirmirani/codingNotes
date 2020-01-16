@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS tutorial</title>
+<link rel="stylesheet" href="cssStyle.css">
+<meta charset="utf-8">
+<meta name="html css" content="I am studying html & CSS">
+<meta http-equiv="refresh" content="30">
+<!-- What does meta do? -->
+</head>
+
+<body>
+<div>
+<h1 id="banner">
+<img src="images/html5logo.png" alt="html logo" width="100px" height="100px" float: right;>
+Html & CSS Tutorial <img src="images/css3logo.png" alt="css logo" width="100px" height="100px" float: left;>
+
+<br>
+<p id="rm1"> Reference material <a href="https://www.w3schools.com/html/html_basic.asp" target="_blank"> <button> W3Schools</button></a> <p>
+</h1>
+</div>
+
+<hr>
+
+<div>
+<h3> What is CSS?</h3>
+<button type="button" onclick="cssReveal()"> CSS</button>
+<ul id="cssli"> </ul>
+<script> 
+function cssReveal() {
+    document.getElementById('cssli').innerHTML = 
+"<li> CSS stands for Cascading Style Sheets </li> <li> CSS describes how HTML elements are to be displayed on screen, paper, or in other media </li> <li> CSS saves a lot of work. It can control the layout of multiple web pages all at once   </li> <li> External stylesheets are stored in CSS files</li>" };
+</script>
+
+
+<h5 id='sel' type='button' onclick="csssel()">CSS selectors</h5>
+<script>
+function csssel() {
+    document.getElementById('cssselectors').innerHTML = 
+    'We can divide <b>CSS selectors</b> into five categories: <br><ul><li>Simple selectors (select elements based on name, id, class)</li>  <li> <a href="https://www.w3schools.com/css/css_combinators.asp">Combinator selectors</a> (select elements based on a specific relationship between them)</li> <li> <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo-class selectors</a>  (select elements based on a certain state) </li> <li> <a href="https://www.w3schools.com/css/css_pseudo_elements.asp">Pseudo-elements selectors</a>  (select and style a part of an element)</li> <li> <a href="https://www.w3schools.com/css/css_attribute_selectors.asp">Attribute selectors</a> (select elements based on an attribute or attribute value-The attribute selectors can be useful for styling forms without class or ID) </li></ul>' };
+</script>
+<p id=cssselectors></p>
+
+
+</div>
+
+</body>
+</html>

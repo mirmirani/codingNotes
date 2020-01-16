@@ -1,0 +1,48 @@
+#banner{
+    color:navy;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+#rm1 {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+/* this is 
+a comment */
+p {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+div {
+    padding: 10px;
+}
+
+div:hover {
+    background-color: azure;
+}
+
+#sel { 
+    border: 1px lightgray;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
